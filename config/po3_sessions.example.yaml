@@ -1,0 +1,22 @@
+# Exemples d'horaires de sessions pour backtests PO3/OPR (heure de Paris)
+sessions:
+  asia:
+    name: "Asie"
+    timezone: "Europe/Paris"
+    open: "00:00"
+    close: "08:00"
+  london:
+    name: "Londres"
+    timezone: "Europe/Paris"
+    open: "08:00"
+    close: "10:00"
+  new_york:
+    name: "New York"
+    timezone: "Europe/Paris"
+    open: "14:30"
+    close: "16:30"
+po3:
+  lookback_days: 3               # Nombre de jours utilisés pour la structure PO3
+  include_wick_high_low: true    # Utiliser les mèches pour détecter les précédents hauts/bas
+  reference_timeframe: "M15"     # Timeframe pour tracer les OPR et la structure
+  buffer_pips: 2                 # Marge pour éviter les exécutions exactes sur les niveaux
