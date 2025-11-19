@@ -21,6 +21,10 @@ This curated list contains 89 awesome open-source projects with a total of 180K 
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
+## Mise en place rapide d'un environnement de développement
+
+Vous cherchez à démarrer rapidement un environnement pour développer, tester et déployer votre propre système de trading ? Consultez le guide [DEV_ENVIRONMENT.md](./DEV_ENVIRONMENT.md) qui détaille l'installation des dépendances (Python, TA-Lib), la gestion des secrets, l'organisation du dépôt et une option Docker pour une reproductibilité totale. Le guide inclut désormais des conseils pour configurer des backtests basés sur la méthode PO3/OPR avec les sessions asiatique, londonienne et new-yorkaise.
+
 ## Contents
 
 - [Bots & Frameworks](#bots--frameworks) _19 projects_
